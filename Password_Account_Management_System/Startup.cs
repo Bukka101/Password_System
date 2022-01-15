@@ -47,12 +47,11 @@ namespace Password_Account_Management_System
 
             app.UseAuthorization();
 
-            /*app.UseEndpoints(endpoints =>
+            app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-            });*/
+            });
             app.UseDefaultFiles();
-            app.UseStaticFiles();
         }
     }
 }
